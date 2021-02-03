@@ -20,4 +20,8 @@ describe Fizzbuzz do
     it { subject.calculate(15).should eq 'fizzbuzz' }
     it { subject.calculate(30).should eq 'fizzbuzz' }
   end
+  context 'Github number' do
+    it { subject.calculate(17).should eq 'Github'}
+    it { subject.calculate(27).should eq 'Github'}
+  end
 end
